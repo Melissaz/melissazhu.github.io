@@ -21,12 +21,11 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="headname">
-                    <h3>John Doe</h3> 
+                    <h3>John <span>Doe</span></h3> 
                 </div>
             </div>
             <div class="col-sm-8">
-                <nav class="navbar">
-                    <div class="nav1">
+                <nav class="navbar1">
                         <ul>
                                 <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./resume.html">Resume</a></li>
@@ -34,32 +33,34 @@
                                 <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./contact.html">contact</a></li>
                         </ul>
-                    </div>
                </nav>
             </div>
         </div>
     </div>
+
     <section class="container">
         <div class="card">
             <div class="card-header">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                         <div class="header-pic">
-                            <img src="./public/image/photo.png" alt="photo">
+                            <img src="./public/image/photo.png" alt="photo" class="rounded-circle">
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-8">
                         <div class="header-word">
                             <div class="header-text">
                                 <div class="name text-center">
                                     <h1>John Doe</h1>
                                 </div>
                                 <div class="name2 text-center">
-                                    <h3>Web Developer</h3>
+                                    <h5>Web Developer</h5>
                                 </div>
                             </div>
-                            <div class="header-icon">
-        
+                            <div class="header-icon text-center">
+                                <a href="#"><i class="fa fa-twitter fa-lg rounded-circle"></i></a>
+                                <a href="#"><i class="fa fa-facebook fa-lg rounded-circle"></i></a>
+                                <a href="#"><i class="fa fa-instagram fa-lg rounded-circle"></i></a>
                             </div>
                         </div>
                     </div>
@@ -70,7 +71,7 @@
                     <div class="col-sm-6">
                         <div class="aboutme">
                             <div class="me-title">
-                                About Me
+                                <h3>About <span>Me</span></h3>
                             </div>
                             <div class="me-content">
                                <p>
@@ -81,23 +82,36 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="info">
-                            <ul class="info-list">
-                                <li><span class="title">Age</span><span class="value">29</span></li>
-                                <li><span class="title">Residence</span><span class="value">Australia</span></li>
-                                <li><span class="title">Address</span><span class="value">Level 3 / 57 Coronation Drive, Brisbane</span></li>
-                                <li><span class="title">e-mail</span><span class="value"><a href="mailto:email@example.com">info@jiangren.com.au</a></span></li>
-                                <li><span class="title">Phone</span><span class="value">+0123 123 456 789</span></li>
-                            </ul>
+                            <div class="info-list">
+                                <div class="row">
+                                    <div class="col-sm-3"><strong>Age</strong></div>
+                                    <div class="col-sm-9">29</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3"><strong>Residence</strong></div>
+                                    <div class="col-sm-9">Australia</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3"><strong>Address</strong></div>
+                                    <div class="col-sm-9">Level 3 / 57 Coronation Drive, Brisbane</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3"><strong>e-mail</strong></div>
+                                    <div class="col-sm-9">info@jiangren.com.au</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3"><strong>Phone</strong></div>
+                                    <div class="col-sm-9">+0123 123 456 789</div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                        
+                    </div>  
                 </div>
-                
             </div>
         </div>
     </section>    
 </body>
 <footer>
-
+        <div class="copyrights">© 2017 All rights reserved. Designed by <a href="http://jiangren.com.au">Melissa</a></div>
 </footer>
 </html>
