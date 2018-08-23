@@ -389,3 +389,22 @@ body > footer {
 max-width: 304px;
 height: 78px;
 }
+
+
+.card .card-content .contact-form input[type="submit"]:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.3);
+}
+
+
+.card .card-content .contact-form input[type="submit"] {
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.8;
+    padding: 0 1.5em;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    margin:10px 10px 0px 0px;
+}
