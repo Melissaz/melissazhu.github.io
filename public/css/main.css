@@ -369,3 +369,23 @@ body > footer {
     height:100%;
 }
 
+.contact-info-block .ci-icon{
+    display:inline-block;
+}
+
+.contact-info-block .ci-text{
+    display:inline-block;
+    margin-left:10px;
+}
+
+.card .card-content .contact-form .form-context i{
+    position: relative;
+    color: #bdbdbd;
+    background-color: #fafafa;
+}
+
+
+.g-recaptcha{
+max-width: 304px;
+height: 78px;
+}
