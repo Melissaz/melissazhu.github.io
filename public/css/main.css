@@ -13,17 +13,10 @@ span{
 }
 
 
-.navbar-nav{
-    position:absolute;
+#collapsibleNavbar{
+    position:relative;
     right:10px;
-    top:15px;
-    transition: all 0.2s ease-in-out;
 }
-
-.nav-item{
-    display:inline-block;
-}
-
 
 .card{
     position: relative;
