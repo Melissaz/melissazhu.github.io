@@ -12,22 +12,18 @@ span{
     color:#2eca7f;
 }
 
-.navbar1{
-    position: relative;
-    float:right;
-    margin:10px;
+
+.navbar-nav{
+    position:absolute;
+    right:10px;
+    top:15px;
     transition: all 0.2s ease-in-out;
 }
-
 
 .nav-item{
     display:inline-block;
 }
 
-
-.nav-link{
-    color:black;
-}
 
 .card{
     position: relative;

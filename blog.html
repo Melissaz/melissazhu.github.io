@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,31 +13,25 @@
     <link rel="stylesheet" href="./public/css/normalize.css" type="text/css">
     <link rel="stylesheet" href="./public/css/main.css">
 
-    <script src="./public/bootstrap-4.1.3-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./public/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-
 
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="headname">
-                    <h3>John <span>Doe</span></h3> 
-                </div>
-            </div>
-            <div class="col-sm-8">
-                <nav class="navbar1">
-                        <ul>
-                                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="./resume.html">Resume</a></li>
-                                <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="./contact.html">contact</a></li>
-                        </ul>
-                </nav>
-            </div>
-        </div>
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="#"><h3>John <span>Doe</span></h3></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contact.html">contact</a></li>
+                    </ul>
+                </div>  
+            </nav>
     </div>
 
     <section class="container">
@@ -61,6 +56,42 @@
                                 </div>
                             </div>
                             <div class="bolg-content">
+                                <div class="blog-content-header text-center">Travel</div>
+                                <div class="blog-content-word text-center"><b>Bootstrap is the Most Popular HTML, CSS, and JS Framework</b></div>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="blog-card">
+                            <div class="blog-media">
+                                <div class="blog-pic">
+                                    <img src="./public/image/blog_post_1.jpg" alt="blog">
+                                </div>
+                                <div class="mask"></div>
+                                <div class="blog-date">
+                                    <span class="day">3</span>
+                                    <span class="month">Dec</span>
+                                </div>
+                            </div>
+                            <div class="bolg-content  text-center">
+                                <div class="blog-content-header  text-center">Travel</div>
+                                <div class="blog-content-word  text-center"><b>Bootstrap is the Most Popular HTML, CSS, and JS Framework</b></div>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="blog-card">
+                            <div class="blog-media">
+                                <div class="blog-pic">
+                                    <img src="./public/image/blog_post_1.jpg" alt="blog">
+                                </div>
+                                <div class="mask"></div>
+                                <div class="blog-date">
+                                    <span class="day">3</span>
+                                    <span class="month">Dec</span>
+                                </div>
+                            </div>
+                            <div class="bolg-content  text-center">
                                 <div class="blog-content-header">Travel</div>
                                 <div class="blog-content-word">Bootstrap is the Most Popular HTML, CSS, and JS Framework</div>
                             </div>    
@@ -78,7 +109,7 @@
                                     <span class="month">Dec</span>
                                 </div>
                             </div>
-                            <div class="bolg-content">
+                            <div class="bolg-content  text-center">
                                 <div class="blog-content-header">Travel</div>
                                 <div class="blog-content-word">Bootstrap is the Most Popular HTML, CSS, and JS Framework</div>
                             </div>    
@@ -96,7 +127,7 @@
                                     <span class="month">Dec</span>
                                 </div>
                             </div>
-                            <div class="bolg-content">
+                            <div class="bolg-content  text-center">
                                 <div class="blog-content-header">Travel</div>
                                 <div class="blog-content-word">Bootstrap is the Most Popular HTML, CSS, and JS Framework</div>
                             </div>    
@@ -114,43 +145,7 @@
                                     <span class="month">Dec</span>
                                 </div>
                             </div>
-                            <div class="bolg-content">
-                                <div class="blog-content-header">Travel</div>
-                                <div class="blog-content-word">Bootstrap is the Most Popular HTML, CSS, and JS Framework</div>
-                            </div>    
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="blog-card">
-                            <div class="blog-media">
-                                <div class="blog-pic">
-                                    <img src="./public/image/blog_post_1.jpg" alt="blog">
-                                </div>
-                                <div class="mask"></div>
-                                <div class="blog-date">
-                                    <span class="day">3</span>
-                                    <span class="month">Dec</span>
-                                </div>
-                            </div>
-                            <div class="bolg-content">
-                                <div class="blog-content-header">Travel</div>
-                                <div class="blog-content-word">Bootstrap is the Most Popular HTML, CSS, and JS Framework</div>
-                            </div>    
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="blog-card">
-                            <div class="blog-media">
-                                <div class="blog-pic">
-                                    <img src="./public/image/blog_post_1.jpg" alt="blog">
-                                </div>
-                                <div class="mask"></div>
-                                <div class="blog-date">
-                                    <span class="day">3</span>
-                                    <span class="month">Dec</span>
-                                </div>
-                            </div>
-                            <div class="bolg-content">
+                            <div class="bolg-content  text-center">
                                 <div class="blog-content-header">Travel</div>
                                 <div class="blog-content-word">Bootstrap is the Most Popular HTML, CSS, and JS Framework</div>
                             </div>    
@@ -162,7 +157,7 @@
     </section>
 
 
-</body>
+
 <footer>
         <div class="row justify-content-center">             
             <div class="col-auto">
@@ -170,4 +165,9 @@
             </div>
         </div>
 </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./public/bootstrap-4.1.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="./public/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+
 </html>
