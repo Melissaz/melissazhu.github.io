@@ -12,13 +12,8 @@ span{
     color:#2eca7f;
 }
 
-.site-nav{
-    float:right;
-}
-
 #collapsibleNavbar{
-    position: relative;
-    float: right;
+    margin-bottom: 8px;
 }
 
 .card{
